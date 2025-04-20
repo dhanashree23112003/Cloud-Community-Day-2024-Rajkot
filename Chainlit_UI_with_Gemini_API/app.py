@@ -8,7 +8,7 @@ from langchain_google_genai import GoogleGenerativeAI, HarmBlockThreshold, HarmC
 
 import chainlit as cl
 import os
-api_key = os.getenv("API")
+api_key = os.getenv("AIzaSyB7Ggl1DSSxKUGKzl2CWZeSZqOrKE5l0K4")
 #genai.configure(api_key=os.environ["API"])
 @cl.on_chat_start
 async def on_chat_start():
